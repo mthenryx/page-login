@@ -4,3 +4,173 @@
     --third-color: #797979;
 }
 
+body {
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+main {
+    margin-top: 15vh;
+    height: 70vh;
+    display: flex;
+}
+
+.cofre {
+    width: 40vw;
+}
+
+.welcome {
+    background-color: white;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign, .login, 
+.continuar, 
+.socialAPI {
+    display: flex;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 5vh;
+}
+
+.top img {
+    height: 20px;
+    width: 34px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 11px;
+    color: var(--primary-color);
+    margin-bottom: 2vh;
+}
+
+.sign {
+    height: 35px;
+    width: 200px;
+    background-color: var(--primary-color);
+    font-size: 13px;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+
+.gray {
+    margin-top: 9px;
+    margin-left: 20px;
+    color: var(--third-color);
+}
+
+.sign div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 3px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.login {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.login div {
+    margin: 5px;
+}
+
+.login .email {
+    height: 30px;
+    width: 12px;
+}
+
+.login img {
+    height: 10px;
+    width: 10px;
+    margin: 10px;
+}
+
+h6 {
+    color: var(--primary-color);
+    font-size: 10px;
+}
+
+hr {
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #3073FF;
+    color: white;
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    border: #3073FF;
+    margin-bottom: 1vh;
+}
+
+.continuar {
+    color: var(--primary-color);
+    font-size: 10px;
+}
+
+.continuar span {
+    margin: 3px;
+}
+
+.socialAPI div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.socialAPI img {
+    height: 20px;
+    width: 20px;
+}
+
+.socialAPI .fecebook {
+    border: #1d4596;
+    background-color: #1d4596;
+}
+
+.socialAPI .apple {
+    border: var(--secundary-color);
+    background-color: var(--secundary-color);
+}
+
+.welcome p {
+    font-size: 10px;
+    color: var(--primary-color);
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vh;
+}
